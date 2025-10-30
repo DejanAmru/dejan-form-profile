@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@500;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    background-color: #b2bfff;
+    justify-content: center;
+    align-items: center;
+    min-height: 200vh;
+}
+
+.input {
+    width: 450px;
+    background-color: #10191f;
+    border-radius: 15px;
+    color: #ffffff;
+    padding: 30px 40px;
+
+}
+
+.input h2 {
+    text-align: center;
+}
+
+.input .input_box {
+    position: relative;
+    color: #ffe5e5;
+    width: 100%;
+    height: 50px; 
+    margin: 3px 0;
+}
+
+.input_box input {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: 400px;
+    color: #ffffff;
+    padding: 20px 30px 20px 20px;
+}
+
+.input_box input::placeholder{
+    color: #ffffff;
+}
+
+.input_box i {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.check_box {
+    padding: 20px 30px 20px 20px;
+}
+
+.check_hobi {
+    padding: 0px 30px 20px 20px;
+}
+.check_jurusan {
+    padding: 0px 30px 20px 20px;
+}
+
+.input button {
+    padding: 20px 30px 20px 20px;
+}
+
+.input .button {
+    font-size: 90%;
+    font-weight: 800;
+    color: #000000;
+    width: 100%;
+    height: 50px;
+    border: none;
+    outline: none;
+    background: #b2bfff;
+    border-radius: 400px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    padding-top: 15 ;   
+}
+
+.input .button:hover {
+    background-color: #ffffff;
+    color: #b2bfff;
+
+}
+
+.akhir {
+    text-align: center;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    text-align: center
+}
+
+.check_box {
+    background-color: #1b2631;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.check_box p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #b2bfff;
+}
+
+.check_box label {
+    font-size: 16px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.check_box input[type="radio"] {
+    margin-right: 8px;
+    accent-color: #b2bfff;
+}
+
+/* --- Bagian Pilih Hobi --- */
+.check_hobi {
+    background-color: #1b2631;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.check_hobi p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #b2bfff;
+}
+
+.check_hobi label {
+    font-size: 16px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.check_hobi input[type="checkbox"] {
+    margin-right: 8px;
+    accent-color: #b2bfff;
+}
+
+/* --- Bagian Jurusan --- */
+.check_jurusan {
+    background-color: #1b2631;
+    border-radius: 10px;
+    padding: 15px 25px;
+    margin-top: 15px;
+    color: #ffffff;
+}
+
+.check_jurusan p {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #b2bfff;
+}
+
+.check_jurusan select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 2px solid #b2bfff;
+    background-color: #f9f9f9;
+    font-size: 16px;
+    color: #10191f;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.check_jurusan select:hover {
+    background-color: #e0e7ff;
+}
+
+.check_jurusan select:focus {
+    outline: none;
+    border-color: #4b7eff;
+    box-shadow: 0 0 8px rgba(75, 126, 255, 0.6);
+}
+
+/* --- Tombol Submit --- */
+.input .button {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #ffffff;
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(135deg, #6f8cff, #3c5bff);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.input .button:hover {
+    background: linear-gradient(135deg, #ffffff, #b2bfff);
+    color: #10191f;
+    box-shadow: 0 0 15px rgba(178, 191, 255, 0.7);
+}

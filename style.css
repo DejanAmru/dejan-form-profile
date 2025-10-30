@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Oswald:wght@500;700&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+.container {
+    background-color: #b2bfff;
+    width: 90%;
+    max-width: 800px;
+    margin: 0rem auto;
+    border-radius: 50px;
+    flex-direction: column;
+    gap: 0rem;
+    padding: 10px;
+    opacity: 0,5;
+}
+
+header {
+    background-color: #10191f;
+    color: #ffffff;
+    stroke-width: 12px;
+    text-align: center;
+    padding: 1.5rem 0;
+    box-shadow: 0 2px 8px rgba(141, 53, 53, 0.1);
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.Hobi {
+    align-self: center;
+    align-content: center;
+    background-color: #10191f;
+    color: #ffffff;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 1000px;
+    opacity: 0,1;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #7c3a3a00;
+    color: #1d0303;
+}
+
+.fp{
+    border: 5px solid rgba(255, 255, 255, 0.986);
+    border-radius: 23%;
+    border-color: rgb(255, 255, 255);
+}
+
+.f {
+    transition: transform 0.5s ease, box-shadow 0.5s ease;
+}
+.f:hover{
+    transform: scale(1.1); 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.ct {
+    text-align: center;
+    color: #ffffff;
+}
+
+.hb {
+    text-align: center;
+}
+
+.daftar {
+    text-align: center;
+    color: #ffffff;
+}
+
+.introduction {
+    color: #ffffff;
+}
